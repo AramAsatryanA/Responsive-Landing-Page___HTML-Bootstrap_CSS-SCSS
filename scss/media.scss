@@ -1,0 +1,429 @@
+
+@media (min-width: 576px) {
+   header {
+      display: block;
+      .navbar {
+         padding: 20px;
+      }
+      .nav-link {
+         font-size: 12px;
+         text-transform: uppercase;
+         line-height: 36px;
+         color: #0f0d0e;
+         font-weight: 700;
+      }
+      .nav-link--yellow {
+         color: #b59f5b;
+      }
+      .nav-link:hover {
+         color: #83bfce;
+      }
+      .nav-icons {
+         display: none;
+      }
+      .navbar .bars-button {
+         border: none;
+         background-color: inherit;
+         font-size: 19px;
+      }
+   }
+   .s-title {
+      .s-title__items {
+         padding: 0px 15px 100px;
+      }
+   }
+   .s-main__content {
+      .s-main__item-top {
+         display: flex;
+         padding-bottom: 20px;
+      }
+      .s-main__item-img {
+         display: block;
+         flex: 0 0 45%;
+         position: relative;
+      }
+      .s-main__item-img img {
+         width: 100%;
+         height: 100%;
+         position: absolute;
+         top: 0;
+         left: 0;
+      }
+      .s-main__item-inner {
+         padding-left: 20px;
+      }
+      .s-main__item-frame {
+         width: 62%;
+         top: -28px;
+      }
+      .s-main__item-title {
+         justify-content: start;
+         text-align: left;
+      }
+      .s-main__item-subtitle {
+         padding: 0px 0px 20px;
+         text-align: left;
+      }
+      .s-main__item-signature {
+         justify-content: start;
+         padding: 0px 0px 35px;
+      } 
+      .s-main__item-text p {
+         height: 55px;
+      }
+      .s-main__item-bottom {
+         justify-content: flex-end;
+         border-bottom: none;
+      }
+      .s-main__item-comment {
+         padding-right: 30%;
+         padding-bottom: 12px;
+         border-bottom: 3px solid #eeeeee;
+      }
+      .s-main__item-share {
+         padding-bottom: 12px;
+         border-bottom: 3px solid #eeeeee;
+      }
+   }
+   footer {
+      padding: 0px 38px 30px;
+      .footer__title  {
+         font-size: 18px;
+      }
+      .footer__subtitle {
+         padding-bottom: 30px;
+      }
+      .footer__subtitle i {
+         font-size: 20px;
+      }
+      .footer__subtitle p {
+         font-size: 24px;
+      }
+      .footer__icons i {
+         font-size: 19px;
+         line-height: 50px;
+         padding-right: 40px;
+      }
+      .footer__top-link a {
+         font-size: 25px;
+      }
+   }
+}
+
+
+@media (min-width: 768px) {
+   header {
+      .navbar {
+         padding: 30px 40px;
+      }
+      .nav-link {
+         font-size: 13px;
+      }
+   }
+   .s-title {
+      .s-title__top {
+         padding: 25px 0px 55px;
+      }
+      .s-title__text {
+         font-size: 70px;
+      }
+      .s-title__items {
+         padding: 0px 50px 100px; 
+      }
+      .s-title__item-text {
+         font-size: 20px;
+         padding: 0px 10px;
+      }
+   }
+   .s-main__content {
+      .s-main__item-comment {
+         padding-right: 40%;
+      }
+   }
+   footer {
+      .footer__subtitle {
+         padding-bottom: 40px;
+      }
+      .footer__items {
+         flex-wrap: nowrap;
+      }
+      .footer__item {
+         padding-right: 5px;
+         padding-bottom: 0px;
+      }
+      .footer__item:nth-child(3) {
+         padding-right: 5px;
+      }
+      .footer__item:nth-child(6) {
+         padding-right: 5px;
+      }
+      .footer__item:last-child {
+         display: block;
+         padding-right: 0;
+      }
+      .footer__icons i {
+         font-size: 20px;
+         line-height: 58px;
+         padding-right: 44px;
+      }
+      .footer__top-link {
+         padding-top: 25px;
+      }
+      .footer__top-link a {
+         font-size: 30px;
+      }
+   }
+}  
+
+
+@media (min-width: 992px) {
+   header {
+      .navbar .bars-button {
+         display: none;
+      }
+      .nav-icons {
+         display: block;
+      }
+      .nav-icons i {
+         font-size: 17px;
+         padding-right: 20px;
+      }
+      .nav-icons i:last-child {
+         padding-right: 0;
+      }
+   }
+   .s-title {
+      .s-title__top {
+         padding: 25px 0px 55px;
+      }
+      .s-title__text {
+         font-size: 70px;
+      }
+      .s-title__items {
+         display: flex;
+         justify-content: space-between;
+         padding-bottom: 150px;
+      }
+      .s-title__item {
+         flex: 0 1 33%;
+         padding-top: 170px;
+      }
+      .s-title__item-text {
+         font-size: 20px;
+         padding: 0px 10px;
+      }
+   }
+   .s-main .s-main__subscribe-shape,
+   .s-main .s-main__follow-shape,
+   .s-main .s-main__categories-shape,
+   .s-main .s-main__posts-shape, 
+   .s-main .s-main__banner-shape,
+   .s-main .s-main__fb-shape,
+   .s-main .s-main__tags-shape {
+      background-color: rgba(181, 159, 91, 0.4);
+      width: 66px;
+      height: 3px;
+      margin: 0 auto;
+   }
+   .s-main__inner {
+      padding-bottom: 65px;
+   }
+   .s-main__content {
+      .s-main__item {
+         padding-bottom: 77px;
+      }
+      .s-main__item-inner {
+         padding-left: 35px;
+      }
+      .s-main__item-frame {
+         height: 43%;
+      }
+      .s-main__item-subtitle {
+         font-size: 20px;
+         line-height: 24px;
+         padding: 0px 11px 35px 0px;
+      }
+      .s-main__item-signature {
+         padding: 0px 0px 45px;
+      }
+   }
+   .s-main__aside {
+      display: block; 
+      .s-main__about {
+         position: relative;
+         padding-bottom: 35px;
+      }
+      .s-main__about-img {
+         text-align: center;
+         position: absolute;
+         top: -90px;
+         left: 54.5px;
+      }
+      .s-main__about-inner {
+         text-align: center;
+         border: 3px solid rgba(181, 159, 91, 0.4);
+         padding: 105px 25px 30px;
+         margin-top: 35px;
+      }
+      .s-main__about-title {
+         color: #0f0d0e;
+         font-family: 'Josefin Sans', sans-serif;
+         font-weight: 700;
+         font-size: 14px;
+         line-height: 29px;
+         text-transform: uppercase;
+         padding-bottom: 15px;
+      }
+      .s-main__about-text {
+         color: #0f0d0e;
+         opacity: 0.7;
+         font-style: italic;
+         font-size: 15px;
+         line-height: 24px;
+         height: 93px;
+         overflow: hidden;
+      }
+      .s-main__about-follow {
+         padding: 0px 44px;
+      }
+      .s-main__about-follow p {
+         color: #b59f5b;
+         font-family: 'Mrs Sheppards', cursive;
+         font-style: italic;
+         font-size: 21px;
+         padding: 20px 0px;
+      }
+      .s-main__about-follow i {
+         font-size: 14px;
+         line-height: 36px;
+      }
+      .s-main__subscribe, 
+      .s-main__follow,
+      .s-main__categories, 
+      .s-main__posts,
+      .s-main__banner,
+      .s-main__fb {
+         padding-bottom: 31px;
+      }
+      .s-main__subscribe-top, 
+      .s-main__follow-top,
+      .s-main__categories-top, 
+      .s-main__posts-top, 
+      .s-main__banner-top,
+      .s-main__fb-top,
+      .s-main__tags-top {
+         padding-bottom: 21px;
+      }
+      .s-main__subscribe-title, 
+      .s-main__follow-title, 
+      .s-main__categories-title,
+      .s-main__posts-title,
+      .s-main__banner-title, 
+      .s-main__fb-title, 
+      .s-main__tags-title {
+         color: #0f0d0e;
+         font-family: 'Josefin Sans', sans-serif;
+         font-weight: 700;
+         font-size: 14px;
+         line-height: 29px;
+         text-transform: uppercase;
+         text-align: center;
+         padding-bottom: 13px;
+      }
+      .s-main__subscribe-form {
+         padding-bottom: 17px;
+      }
+      .s-main__subscribe-form input,
+      .s-main__posts-search input {
+         background: #f4f7f6;
+         line-height: 40px;
+         border: none;
+         border-radius: 0;
+      }
+      .s-main__subscribe-form input::placeholder, 
+      .s-main__posts-search input::placeholder {
+         opacity: 0.54;
+         font-size: 13px;
+      }
+      .s-main__subscribe-botton {
+         background-color: #b59f5b;
+         text-align: center;
+      }
+      .s-main__subscribe-botton .btn {
+         color: #ffffff;
+         font-weight: 700;
+         font-size: 14px;
+         line-height: 40px;
+         text-transform: uppercase;
+      }
+      .s-main__follow-images img {
+         padding-bottom: 10px;
+      }
+      .list-group-flush .list-group-item {
+         padding: 0;
+      }
+      .list-group-flush .list-group-item:last-child {
+         border-width: 0 0 1px;
+      }
+      .s-main__categories-link {
+         color: #000000;
+         text-decoration: none;
+         font-weight: 700;
+         font-size: 14px;
+         line-height: 47px;
+      }
+      .s-main__categories-link span {
+         color: #b59f5b;
+         font-family: 'Relaway';
+         font-size: 12px;
+         padding-left: 7px;
+      }
+      .s-main__posts-item {
+         padding-bottom: 22px;
+      }
+      .s-main__posts-item:last-child {
+         padding-bottom: 45px;
+      }
+      .s-main__posts-text {
+         padding-left: 17px;
+      }
+      .s-main__posts-date {
+         opacity: 0.54;
+         font-size: 12px;
+      }
+      .s-main__posts-topic {
+         font-family: "Josefin Sans", sans-serif; 
+         font-weight: 700;
+         font-size: 14px;
+      }
+      .s-main__posts-search span {
+         border: none;
+         background-color: #b59f5b;
+      } 
+      .s-main__posts-search span i {
+         color: #ffffff;
+         font-size: 17px;
+      }
+      .s-main__fb-pagelink iframe {
+         max-width: 100%;
+         height: auto;
+      }
+      .s-main__tags-link {
+         display: inline-block;
+         color: #0f0d0e;
+         text-decoration: none;
+         font-weight: 700;
+         font-size: 12px;
+         text-transform: uppercase;
+         padding: 8px 15px;
+         margin-bottom: 5px;
+         border: 3px solid #eeeeee;
+      }
+      .s-main__tags-link--yellow {
+         border: 3px solid rgba(181, 159, 91, 0.4);
+      }
+      .form-control:focus {
+         box-shadow: none;
+      }
+   }
+}
